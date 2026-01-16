@@ -23,8 +23,8 @@ export const imageMap = {
     "funnels_pro": "images/funnel/concierge-pro.jpg",
     "funnels_elite": "images/funnel/concierge-elite.jpg",
     "website_essentials_guide": "images/funnel/website-essentials-guide.jpg",
-    "sales_funnel_ebook": "https://www.genspark.ai/api/files/s/bQeYIhtH",
-    "case_studies_hero": "https://www.genspark.ai/api/files/s/DufRwW5I"
+    "sales_funnel_ebook": "images/funnel/sales-funnel-ebook.jpg",
+    "case_studies_hero": "images/funnel/case-studies-hero.jpg"
 };
 
 export const getImage = (key) => {
