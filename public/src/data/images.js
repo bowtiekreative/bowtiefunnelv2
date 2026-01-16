@@ -1,9 +1,9 @@
 // Image Map for Placeholders
 export const imageMap = {
-    "free_book_cover": "https://www.genspark.ai/api/files/s/sZ6i385f",
+    "free_book_cover": "images/funnel/free-book-cover.jpg",
     "inbox_illustration": "images/funnel/inbox-illustration.jpg",
-    "audit_dashboard": "https://www.genspark.ai/api/files/s/C2bdFlU5",
-    "viral_system_mockup": "https://www.genspark.ai/api/files/s/F1sQ0yYr",
+    "audit_dashboard": "images/funnel/audit-dashboard.jpg",
+    "viral_system_mockup": "images/funnel/viral-system-mockup.jpg",
     "vault_library": "images/funnel/vault-library.jpg",
     "brand_session": "images/funnel/brand-session.jpg",
     "brand_identity_book": "images/funnel/brand-identity-book.jpg",
