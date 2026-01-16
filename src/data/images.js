@@ -1,16 +1,16 @@
 // Image Map for Placeholders
 export const imageMap = {
     "free_book_cover": "https://www.genspark.ai/api/files/s/sZ6i385f",
-    "inbox_illustration": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800",
+    "inbox_illustration": "images/funnel/inbox-illustration.jpg",
     "audit_dashboard": "https://www.genspark.ai/api/files/s/C2bdFlU5",
     "viral_system_mockup": "https://www.genspark.ai/api/files/s/F1sQ0yYr",
-    "vault_library": "https://www.genspark.ai/api/files/s/NrWKFxpU",
+    "vault_library": "images/funnel/vault-library.jpg",
     "brand_session": "https://www.genspark.ai/api/files/s/GpwxKTze",
     "brand_identity_book": "https://www.genspark.ai/api/files/s/gY588tIC",
     "done_for_you_team": "https://www.genspark.ai/api/files/s/AegoHaW5",
-    "three_day_workshop": "https://www.genspark.ai/api/files/s/7V0rokxa",
-    "unlimited_design": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&q=80&w=800",
-    "brand_book": "https://images.unsplash.com/photo-1507842217343-583bb7260b66?auto=format&fit=crop&q=80&w=800",
+    "three_day_workshop": "https://www.genspark.ai/api/files/s/ut5BUrHm",
+    "unlimited_design": "images/funnel/unlimited-design.jpg",
+    "brand_book": "images/funnel/brand-book.jpg",
     "smu_book_cover": "https://www.genspark.ai/api/files/s/AqNPxHsu",
     "websites_hero": "https://www.genspark.ai/api/files/s/SZHzHMnr",
     "website_black_label": "https://www.genspark.ai/api/files/s/pymHiPFs",
@@ -22,9 +22,9 @@ export const imageMap = {
     "funnels_plus": "https://www.genspark.ai/api/files/s/OsC2qwqk",
     "funnels_pro": "https://www.genspark.ai/api/files/s/MZG8ldKL",
     "funnels_elite": "https://www.genspark.ai/api/files/s/klQUvOyF",
-    "website_essentials_guide": "https://www.genspark.ai/api/files/s/JYwFRFfc",
+    "website_essentials_guide": "images/funnel/website-essentials-guide.jpg",
     "sales_funnel_ebook": "https://www.genspark.ai/api/files/s/bQeYIhtH",
-    "case_studies_hero": "https://www.genspark.ai/api/files/s/TlcF9l85"
+    "case_studies_hero": "images/funnel/case-studies-hero.jpg"
 };
 
 export const getImage = (key) => {

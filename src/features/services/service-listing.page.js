@@ -10,6 +10,7 @@ import { DynamicTestimonialsComponent } from '../../shared/dynamic-testimonials.
 import { DynamicVideoTestimonialsComponent } from '../../shared/dynamic-video-testimonials.component.js';
 import { CaseStudyComponent } from '../../shared/case-study.component.js';
 import { WebinarComponent } from '../../shared/webinar.component.js';
+import { CaseStudiesGalleryComponent } from '../../shared/case-studies-gallery.component.js';
 
 export class ServiceListingPage {
     constructor(pageConfig) {
@@ -60,6 +61,11 @@ export class ServiceListingPage {
 
         // 5. Bottom CTA
         if (this.data.ctaBlock) {
+            
+            // 5.4 Case Studies Gallery (Above Testimonials)
+            const gallery = new CaseStudiesGalleryComponent("Recent Work");
+            container.appendChild(gallery.render());
+
             // 5.5 Testimonials before final CTA
             const dynamicTestimonials = new DynamicTestimonialsComponent();
             container.appendChild(dynamicTestimonials.render());

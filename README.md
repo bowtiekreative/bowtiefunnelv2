@@ -11,28 +11,30 @@
   - Service Listings (Websites, Funnels)
   - Legal Pages
 - **Case Studies Portfolio**:
-  - **Index Page**: Grid view of project case studies.
+  - **Embedded Gallery**: "Case Studies" gallery section added to all main funnel pages (Services, Offers, Applications) positioned above testimonials.
   - **Detail Pages**: In-depth project breakdown with "Challenge/Solution/Outcome" structure.
-  - **Integration**: Linked from global footer navigation.
-  - **Content**: 5 high-fidelity case studies (Non-Profit, Travel, Dining, Music, Sports) with professional imagery.
+  - **Index Page**: "View All" destination for the full portfolio.
+  - **Content**: Updated gallery with 31 high-quality case study images.
+  - **Visuals**: Updated hero images for Website Plans and Funnel Programs pages with high-fidelity 3D box mockups.
+  - **Products**: Replaced all individual product images for Website Plans (Lite, Classic, Windsor, Black Label) and Funnel Programs (Start, Plus, Pro, Elite) with 3D packaging visuals.
+  - **Offers**: Updated hero images for all core offer pages (Viral System, Brand Identity, Free Book, Brand Workshop, Audit, SMU Book, Done-For-You, 3-Day Workshop, Sales Funnel Ebook) with new high-quality mockups.
 
 ## Functional Entry URIs
 - **Home/Lead Magnet**: `index.html` (defaults to `?page=free_book_optin`)
-- **Case Studies**: `index.html?page=case_studies_index`
-- **Services**:
+- **Case Studies Index**: `index.html?page=case_studies_index`
+- **Services (with Gallery)**:
   - `index.html?page=website_plans_page`
   - `index.html?page=funnel_plans_page`
-- **Offers**:
+- **Offers (with Gallery)**:
   - `index.html?page=viral_system_offer`
   - `index.html?page=vault_offer`
 
 ## Project Structure
 - `src/core/`: Router and EventBus.
 - `src/data/`: content configuration (`config.js`) and image mappings (`images.js`).
-- `src/features/`: Page components organized by feature (case-studies, offers, etc.).
-- `src/shared/`: Reusable components (Hero, Footer, etc.).
+- `src/features/`: Page components organized by feature.
+- `src/shared/`: Reusable components, including `CaseStudiesGalleryComponent`.
 
 ## Next Steps
-- Implement "Category Filter" for Case Studies index if list grows.
-- Add "Related Case Studies" section to detail pages.
-- Connect contact forms to a real backend or service (e.g., Formspree/Netlify Forms).
+- Connect contact forms to a real backend.
+- Add "Related Case Studies" to detail pages.

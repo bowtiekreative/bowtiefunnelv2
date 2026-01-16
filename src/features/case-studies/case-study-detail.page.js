@@ -1,5 +1,6 @@
 import { HeroComponent } from '../../shared/hero.component.js';
 import { CtaBlockComponent } from '../services/components/cta-block.js';
+import { EventBus } from '../../core/event-bus.js';
 
 export class CaseStudyDetailPage {
     constructor(pageConfig) {
@@ -8,6 +9,20 @@ export class CaseStudyDetailPage {
 
     render() {
         const container = document.createElement('div');
+        
+        // 0. Back Button
+        const backBtnContainer = document.createElement('div');
+        backBtnContainer.className = "max-w-7xl mx-auto px-4 md:px-8 pt-8";
+        backBtnContainer.innerHTML = `
+            <button class="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm font-medium">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                Back to Case Studies
+            </button>
+        `;
+        backBtnContainer.querySelector('button').addEventListener('click', () => {
+             EventBus.emit('navigate', 'case_studies_index');
+        });
+        container.appendChild(backBtnContainer);
         
         // Hero
         if (this.data.hero) {

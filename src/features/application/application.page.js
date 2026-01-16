@@ -8,6 +8,7 @@ import { CountdownComponent } from './components/countdown.js';
 import { BonusComponent } from './components/bonus.js';
 import { DynamicTestimonialsComponent } from '../../shared/dynamic-testimonials.component.js';
 import { DynamicVideoTestimonialsComponent } from '../../shared/dynamic-video-testimonials.component.js';
+import { CaseStudiesGalleryComponent } from '../../shared/case-studies-gallery.component.js';
 import { CaseStudyComponent } from '../../shared/case-study.component.js';
 import { WebinarComponent } from '../../shared/webinar.component.js';
 
@@ -165,6 +166,10 @@ export class ApplicationPage {
             const audience = new DeliverablesComponent(title, this.data.audience);
             container.appendChild(audience.render());
         }
+
+        // 7.4 Case Studies Gallery (Above Dynamic Testimonials)
+        const gallery = new CaseStudiesGalleryComponent("Success Stories");
+        container.appendChild(gallery.render());
 
         // 7.5 Dynamic Testimonials
         const dynamicTestimonials = new DynamicTestimonialsComponent();

@@ -1668,46 +1668,37 @@ export const funnelConfig = {
         "imageKey": "case_studies_hero" 
       },
       "studies": [
-        {
-          "id": "cs_fundraising",
-          "title": "Non-Profit Fundraising Platform",
-          "category": "Web App & Funnel",
-          "description": "A high-conversion donation platform that increased average donor value by 45% through strategic user flows and emotional design.",
-          "image": "https://www.genspark.ai/api/files/s/6H62QGbC",
-          "linkId": "cs_fundraising_detail"
-        },
-        {
-          "id": "cs_travel",
-          "title": "Adventure Travel Booking Engine",
-          "category": "E-Commerce",
-          "description": "Simplifying complex itinerary booking into a seamless 3-step process, resulting in a 2x increase in mobile bookings.",
-          "image": "https://www.genspark.ai/api/files/s/OszQ27Wf",
-          "linkId": "cs_travel_detail"
-        },
-        {
-          "id": "cs_dining",
-          "title": "Luxury Dining Reservation System",
-          "category": "UI/UX Design",
-          "description": "Elevating the reservation experience for a Michelin-star restaurant group, reducing no-shows by 30%.",
-          "image": "https://www.genspark.ai/api/files/s/PUV0KPcp",
-          "linkId": "cs_dining_detail"
-        },
-        {
-          "id": "cs_music",
-          "title": "Artist Streaming Dashboard",
-          "category": "SaaS Product",
-          "description": "A centralized hub for artists to track streaming metrics and fan engagement across multiple platforms.",
-          "image": "https://www.genspark.ai/api/files/s/Tqm2uHiX",
-          "linkId": "cs_music_detail"
-        },
-        {
-          "id": "cs_sports",
-          "title": "Pro Sports Team Management",
-          "category": "Enterprise App",
-          "description": "Comprehensive player and match management system for professional sports organizations.",
-          "image": "https://www.genspark.ai/api/files/s/S3oQlP7W",
-          "linkId": "cs_sports_detail"
-        }
+        { "image": "https://www.genspark.ai/api/files/s/W2JWmmgk" },
+        { "image": "https://www.genspark.ai/api/files/s/9qztpTZ9" },
+        { "image": "https://www.genspark.ai/api/files/s/jbFrwXI1" },
+        { "image": "https://www.genspark.ai/api/files/s/vpW7Vf73" },
+        { "image": "https://www.genspark.ai/api/files/s/S3oQlP7W" },
+        { "image": "https://www.genspark.ai/api/files/s/T5UaxLhb" },
+        { "image": "https://www.genspark.ai/api/files/s/5gWda1Ho" },
+        { "image": "https://www.genspark.ai/api/files/s/BYueKkZN" },
+        { "image": "https://www.genspark.ai/api/files/s/9ynwTv8c" },
+        { "image": "https://www.genspark.ai/api/files/s/zkhGbwIH" },
+        { "image": "https://www.genspark.ai/api/files/s/LjBVnPAD" },
+        { "image": "https://www.genspark.ai/api/files/s/vpW7Vf73" },
+        { "image": "https://www.genspark.ai/api/files/s/W2JWmmgk" },
+        { "image": "https://www.genspark.ai/api/files/s/4uE5DbSV" },
+        { "image": "https://www.genspark.ai/api/files/s/L3LRPPtz" },
+        { "image": "https://www.genspark.ai/api/files/s/9qztpTZ9" },
+        { "image": "https://www.genspark.ai/api/files/s/itrByoSZ" },
+        { "image": "https://www.genspark.ai/api/files/s/fdnIs6Y2" },
+        { "image": "https://www.genspark.ai/api/files/s/TlcF9l85" },
+        { "image": "https://www.genspark.ai/api/files/s/BYygqf2n" },
+        { "image": "https://www.genspark.ai/api/files/s/jbFrwXI1" },
+        { "image": "https://www.genspark.ai/api/files/s/EzdZRCy0" },
+        { "image": "https://www.genspark.ai/api/files/s/3vcraS6z" },
+        { "image": "https://www.genspark.ai/api/files/s/8hrs4y8X" },
+        { "image": "https://www.genspark.ai/api/files/s/LjBVnPAD" },
+        { "image": "https://www.genspark.ai/api/files/s/0qWhguwY" },
+        { "image": "https://www.genspark.ai/api/files/s/jRcNeORN" },
+        { "image": "https://www.genspark.ai/api/files/s/kzvZpMvx" },
+        { "image": "https://www.genspark.ai/api/files/s/7icX6iMi" },
+        { "image": "https://www.genspark.ai/api/files/s/fkmjzCyd" },
+        { "image": "https://www.genspark.ai/api/files/s/BYueKkZN" }
       ],
       "ctaBlock": {
         "headline": "Ready to write your own success story?",
@@ -1723,7 +1714,7 @@ export const funnelConfig = {
       "type": "case_study_detail",
       "slug": "/case-studies/fundraising",
       "title": "Non-Profit Fundraising Platform",
-      "mainImage": "https://www.genspark.ai/api/files/s/6H62QGbC",
+      "mainImage": "https://www.genspark.ai/api/files/s/W2JWmmgk",
       "hero": {
         "headline": "Scaling Impact Through Design",
         "subheadline": "How we helped a global non-profit increase donations by 45%.",
@@ -1763,7 +1754,7 @@ export const funnelConfig = {
       "type": "case_study_detail",
       "slug": "/case-studies/travel",
       "title": "Adventure Travel Booking Engine",
-      "mainImage": "https://www.genspark.ai/api/files/s/OszQ27Wf",
+      "mainImage": "https://www.genspark.ai/api/files/s/9qztpTZ9",
       "hero": {
         "headline": "Simplifying Adventure",
         "subheadline": "Turning complex itineraries into a seamless booking experience.",
@@ -1782,7 +1773,7 @@ export const funnelConfig = {
         {
           "title": "The Execution",
           "content": "<p>We built a custom booking engine that guides users through a step-by-step wizard. We used rich imagery to keep users excited and progress bars to reduce anxiety about the length of the process.</p>",
-          "image": "https://www.genspark.ai/api/files/s/RDZkxLMV" 
+          "image": "https://www.genspark.ai/api/files/s/9qztpTZ9" 
         }
       ],
       "ctaBlock": {
@@ -1799,7 +1790,7 @@ export const funnelConfig = {
       "type": "case_study_detail",
       "slug": "/case-studies/dining",
       "title": "Luxury Dining Reservation System",
-      "mainImage": "https://www.genspark.ai/api/files/s/PUV0KPcp",
+      "mainImage": "https://www.genspark.ai/api/files/s/jbFrwXI1",
       "hero": {
         "headline": "A Taste of Elegance",
         "subheadline": "Digital experience matching the quality of a Michelin-star menu.",
@@ -1818,7 +1809,7 @@ export const funnelConfig = {
         {
           "title": "The Design",
           "content": "<p>We used dark, moody photography mixed with elegant typography to create a sense of intimacy. The reservation system was integrated seamlessly, allowing guests to see real-time availability and book special experiences.</p>",
-          "image": "https://www.genspark.ai/api/files/s/BYygqf2n" 
+          "image": "https://www.genspark.ai/api/files/s/jbFrwXI1" 
         }
       ],
       "ctaBlock": {
@@ -1835,7 +1826,7 @@ export const funnelConfig = {
       "type": "case_study_detail",
       "slug": "/case-studies/music",
       "title": "Artist Streaming Dashboard",
-      "mainImage": "https://www.genspark.ai/api/files/s/Tqm2uHiX",
+      "mainImage": "https://www.genspark.ai/api/files/s/kzvZpMvx",
       "hero": {
         "headline": "Data for Artists",
         "subheadline": "Empowering musicians with real-time insights.",
@@ -1890,7 +1881,7 @@ export const funnelConfig = {
         {
           "title": "The System",
           "content": "<p>We created a comprehensive management suite with a mobile player app and a desktop admin panel. It handles everything from injury reporting to travel itineraries.</p>",
-          "image": "https://www.genspark.ai/api/files/s/LjBVnPAD" 
+          "image": "https://www.genspark.ai/api/files/s/S3oQlP7W" 
         }
       ],
       "ctaBlock": {

@@ -7,6 +7,7 @@ import { BonusComponent } from '../application/components/bonus.js';
 import { CountdownComponent } from '../application/components/countdown.js';
 import { DynamicTestimonialsComponent } from '../../shared/dynamic-testimonials.component.js';
 import { DynamicVideoTestimonialsComponent } from '../../shared/dynamic-video-testimonials.component.js';
+import { CaseStudiesGalleryComponent } from '../../shared/case-studies-gallery.component.js';
 import { CaseStudyComponent } from '../../shared/case-study.component.js';
 import { WebinarComponent } from '../../shared/webinar.component.js';
 
@@ -100,6 +101,10 @@ export class DualOfferPage {
             const outcomeGrid = new FeatureGridComponent("You'll know exactly what to do next", this.data.outcomes);
             container.appendChild(outcomeGrid.render());
         }
+
+        // 4.4 Case Studies Gallery (Above Dynamic Testimonials)
+        const gallery = new CaseStudiesGalleryComponent("Recent Audits & Work");
+        container.appendChild(gallery.render());
 
         // 4.5 Dynamic Testimonials
         const dynamicTestimonials = new DynamicTestimonialsComponent();

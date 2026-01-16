@@ -13,6 +13,7 @@ import { DynamicVideoTestimonialsComponent } from '../../shared/dynamic-video-te
 import { CaseStudyComponent } from '../../shared/case-study.component.js';
 import { WebinarComponent } from '../../shared/webinar.component.js';
 import { BonusComponent } from '../application/components/bonus.js';
+import { CaseStudiesGalleryComponent } from '../../shared/case-studies-gallery.component.js';
 
 export class SingleOfferPage {
     constructor(pageConfig) {
@@ -146,6 +147,10 @@ export class SingleOfferPage {
             const testimonials = new TestimonialComponent("What Readers & Audiences Say", this.data.testimonials);
             container.appendChild(testimonials.render());
         }
+
+        // 9.4 Case Studies Gallery (Above Dynamic Testimonials)
+        const gallery = new CaseStudiesGalleryComponent("Success Stories");
+        container.appendChild(gallery.render());
 
         // 9.5 Dynamic Testimonials (Social Proof)
         const dynamicTestimonials = new DynamicTestimonialsComponent();
