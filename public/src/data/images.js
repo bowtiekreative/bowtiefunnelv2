@@ -12,19 +12,19 @@ export const imageMap = {
     "unlimited_design": "images/funnel/unlimited-design.jpg",
     "brand_book": "images/funnel/brand-book.jpg",
     "smu_book_cover": "https://www.genspark.ai/api/files/s/AqNPxHsu",
-    "websites_hero": "https://www.genspark.ai/api/files/s/SZHzHMnr",
-    "website_black_label": "https://www.genspark.ai/api/files/s/pymHiPFs",
-    "website_lite": "https://www.genspark.ai/api/files/s/PHCdxUTY",
-    "website_windsor": "https://www.genspark.ai/api/files/s/DSAAJECJ",
-    "website_classic": "https://www.genspark.ai/api/files/s/R3iqjTw8",
-    "funnels_hero": "https://www.genspark.ai/api/files/s/fsocp9nq",
-    "funnels_start": "https://www.genspark.ai/api/files/s/ye0dZakT",
-    "funnels_plus": "https://www.genspark.ai/api/files/s/OsC2qwqk",
-    "funnels_pro": "https://www.genspark.ai/api/files/s/MZG8ldKL",
-    "funnels_elite": "https://www.genspark.ai/api/files/s/klQUvOyF",
+    "websites_hero": "images/funnel/website-windsor.jpg",
+    "website_black_label": "images/funnel/website-black-label.jpg",
+    "website_lite": "images/funnel/website-lite.jpg",
+    "website_windsor": "images/funnel/website-windsor.jpg",
+    "website_classic": "images/funnel/website-classic.jpg",
+    "funnels_hero": "images/funnel/concierge-elite.jpg",
+    "funnels_start": "images/funnel/concierge-start.jpg",
+    "funnels_plus": "images/funnel/concierge-plus.jpg",
+    "funnels_pro": "images/funnel/concierge-pro.jpg",
+    "funnels_elite": "images/funnel/concierge-elite.jpg",
     "website_essentials_guide": "images/funnel/website-essentials-guide.jpg",
     "sales_funnel_ebook": "https://www.genspark.ai/api/files/s/bQeYIhtH",
-    "case_studies_hero": "images/funnel/case-studies-hero.jpg"
+    "case_studies_hero": "https://www.genspark.ai/api/files/s/DufRwW5I"
 };
 
 export const getImage = (key) => {
