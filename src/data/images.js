@@ -25,3 +25,7 @@ export const imageMap = {
     "sales_funnel_ebook": "images/funnel/sales-funnel-ebook.jpg",
     "case_studies_hero": "images/funnel/case-studies-hero.jpg"
 };
+
+export const getImage = (key) => {
+    return imageMap[key] || '';
+};
